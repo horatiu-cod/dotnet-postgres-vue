@@ -28,7 +28,7 @@
 	// [Optional] To reuse of your local HTTPS dev cert:
 	"remoteEnv": {
 	 	   "ASPNETCORE_Kestrel__Certificates__Default__Password": "S3cr3t",
-	       "ASPNETCORE_Kestrel__Certificates__Default__Path": "/home/vscode/.aspnet/https/managerAppApi.pfx"
+	       "ASPNETCORE_Kestrel__Certificates__Default__Path": "/home/vscode/.aspnet/https/managerApp.Api.pfx"
     },
 	// If only using Remote - Containers with a local container, uncomment this line instead:
 	"mounts": [ "source=${env:HOME}${env:USERPROFILE}/.aspnet/https,target=/home/vscode/.aspnet/https,type=bind" ]
